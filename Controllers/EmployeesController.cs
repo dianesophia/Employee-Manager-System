@@ -8,6 +8,7 @@ namespace Employee_Manager_System.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class EmployeesController : ControllerBase
     {
         private readonly AppDBContext _dbcontext;
